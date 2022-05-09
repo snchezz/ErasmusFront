@@ -1,0 +1,40 @@
+<!-- Script y CSS que vamos a usar -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<!-- NAV Version PC -->
+<nav class="blue darken-4" style="padding:0px 10px;">
+	<div class="nav-wrapper">
+		<a id="text" routerLink="/home" class="brand-logo center">Erasmus+</a>
+
+		<!-- Nav al lado Izquierdo -->
+		<ul class="left hide-on-med-and-down">
+			<li><a routerLinkActive="active" routerLink="/informacion_rabida">IES La Rabida</a></li>
+			<li><a routerLinkActive="active" routerLink="/informacion_carlomaria">Carlo Mª Carofa</a></li>
+			<li><a routerLinkActive="active" routerLink="/blog_rabida">IES La Rabida Blog</a></li>
+			<li><a routerLinkActive="active" routerLink="/blog_carlomaria">Carlo Mª Carofa Blog</a></li>
+			<li><a routerLinkActive="active" routerLink="/contacto">Contacto</a></li>
+		</ul>
+
+		<!-- Icono Menu -->
+		<a href="/home" class="sidenav-trigger" data-target="mobile-nav">
+			<i class="material-icons">menu</i>
+		</a>
+
+		<!-- Nav al lado Derecho -->
+		<ul class="right hide-on-med-and-down">
+			<li><a routerLinkActive="active" routerLink="/login">Login</a></li>
+		</ul>
+	</div>
+</nav>
+
+<!-- NAV Version Movil -->
+<ul class="sidenav" id="mobile-nav">
+	<li><a routerLinkActive="active" routerLink="/informacion_rabida">IES La Rabida</a></li>
+	<li><a routerLinkActive="active" routerLink="/informacion_carlomaria">Carlo Mª Carofa</a></li>
+	<li><a routerLinkActive="active" routerLink="/blog_rabida">IES La Rabida Blog</a></li>
+	<li><a routerLinkActive="active" routerLink="/blog_carlomaria">Carlo Mª Carofa Blog</a></li>
+	<li><a routerLinkActive="active" routerLink="/contacto">Contacto</a></li>
+</ul>

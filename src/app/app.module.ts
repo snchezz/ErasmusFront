@@ -13,6 +13,9 @@ import { LoginresetComponent } from './componentes/loginreset/loginreset.compone
 import { TutorialImgurComponent } from './componentes/tutorial-imgur/tutorial-imgur.component';
 import { ContactoComponent } from './componentes/contacto/contacto.component';
 import { Error404Component } from './componentes/error404/error404.component';
+import { NavComponent } from './componentes/nav/nav.component';
+import { FooterComponent } from './componentes/footer/footer.component';
+import { NavtitComponent } from './componentes/navtit/navtit.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { Error404Component } from './componentes/error404/error404.component';
     LoginresetComponent,
     TutorialImgurComponent,
     ContactoComponent,
-    Error404Component
+    Error404Component,
+    NavComponent,
+    FooterComponent,
+    NavtitComponent
   ],
   imports: [
     BrowserModule,
